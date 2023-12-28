@@ -1,0 +1,6 @@
+streamlit
+streamlit_cropperjs
+easyocr
+imageio
+opencv
+cv2
