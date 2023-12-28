@@ -4,7 +4,7 @@ from streamlit_cropperjs import st_cropperjs
 import cv2
 import imageio.v3 as iio
 
-reader = easyocr.Reader(['en'])
+reader = easyocr.Reader(['en'], gpu = True)
 st.header('Image to Text Converter 🔠')
 img = st.file_uploader('Upoad Image Here!!', type=['png', 'jpg', 'jpeg'], key='uploaded_pic')
 if img:
