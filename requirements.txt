@@ -1,4 +1,5 @@
 easyocr==1.7.1
+requests==2.31.0
 imageio==2.31.3
 opencv_contrib_python==4.8.0.76
 opencv_python==4.8.0.76
