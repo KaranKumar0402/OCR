@@ -1,6 +1,9 @@
-streamlit
-streamlit_cropperjs
-easyocr
-imageio
-opencv
-cv2
+easyocr==1.7.1
+imageio==2.31.3
+opencv_contrib_python==4.8.0.76
+opencv_python==4.8.0.76
+opencv_python_headless==4.8.1.78
+streamlit==1.28.0
+streamlit_cropperjs==0.0.8
+~treamlit==1.24.0
+~treamlit==1.26.0
