@@ -1,8 +1,8 @@
 easyocr==1.7.1
-requests==2.31.0
 imageio==2.31.3
-opencv_contrib_python==4.8.0.76
-opencv_python==4.8.0.76
 opencv_python_headless==4.8.1.78
+Requests==2.31.0
 streamlit==1.28.0
 streamlit_cropperjs==0.0.8
+torch==2.0.1
+torchvision==0.15.2
