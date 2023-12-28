@@ -1,8 +1,8 @@
 import streamlit as st
 from streamlit_cropperjs import st_cropperjs
-import cv2
 import imageio.v3 as iio
 import easyocr
+import cv2
 
 reader = easyocr.Reader(['en'], gpu = True)
 st.header('Image to Text Converter 🔠')
