@@ -9,7 +9,7 @@ def loading_model(langlist):
     rdr = easyocr.Reader(langlist,gpu = True)
     return (rdr)
 
-reader = load_model(['en'])
+reader = loading_model(['en'])
 st.header('Image to Text Converter 🔠')
 img = st.file_uploader('Upoad Image Here!!', type=['png', 'jpg', 'jpeg'], key='uploaded_pic')
 if img:
