@@ -4,8 +4,8 @@ import imageio.v3 as iio
 import easyocr
 import cv2
 
-@st.cache_resource()
-def load_model(langlist):
+@st.cache_resource(show_spinner=True)
+def loading_model(langlist):
     rdr = easyocr.Reader(langlist,gpu = True)
     return (rdr)
 
